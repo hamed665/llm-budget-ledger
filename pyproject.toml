@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-budget-ledger"
+version = "0.1.0"
+description = "Atomic budget reservations and exact-decimal usage settlement."
+requires-python = ">=3.11"
+authors = [{name = "Hamed Minaei"}]
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["tokenledger*"]
